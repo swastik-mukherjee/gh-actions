@@ -8,6 +8,9 @@ jobs:
         - name: Welcome Alerts
           run: echo "Hello World"
 
+        - name: checking out Repo
+          uses: actions/checkout@v4
+
 
         - name: List files
           run: ls -ltrh
