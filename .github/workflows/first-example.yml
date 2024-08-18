@@ -1,0 +1,16 @@
+name: First test workflow
+on: push
+
+jobs:
+    Exploring-gh-Actions:
+        runs-on: ubuntu-latest
+        steps:
+        - name: Welcome Alerts
+          run: echo "Hello World"
+
+
+        - name: List files
+          run: ls -ltrh
+
+        - name: read readme
+          run: cat README.md
